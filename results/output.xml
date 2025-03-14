@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.8 on win32)" generated="2025-03-10T16:01:12.615110" rpa="false" schemaversion="5">
+<suite id="s1" name="Sunway Bot" source="C:\Users\Acer\Desktop\my-rsb-robot\sunway bot">
+<suite id="s1-s1" name="Rpa" source="C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\rpa.robot">
+<test id="s1-s1-t1" name="Scrape Ebay Laptops And Save To CSV" line="13">
+<kw name="Open Browser">
+<msg time="2025-03-10T16:01:12.686330" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${EBAY_URL}</arg>
+<arg>headless=True</arg>
+<status status="FAIL" start="2025-03-10T16:01:12.685327" elapsed="0.001003">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2025-03-10T16:01:12.688333" elapsed="0.000999"/>
+</kw>
+<kw name="Scrape Ebay Laptops">
+<var>${laptops}</var>
+<status status="NOT RUN" start="2025-03-10T16:01:12.690333" elapsed="0.000000"/>
+</kw>
+<kw name="Save To CSV">
+<arg>${laptops}</arg>
+<arg>${CSV_FILE}</arg>
+<status status="NOT RUN" start="2025-03-10T16:01:12.690333" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2025-03-10T16:01:12.691334" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-10T16:01:12.681814" elapsed="0.011519">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2025-03-10T16:01:12.652128" elapsed="0.043732"/>
+</suite>
+<status status="FAIL" start="2025-03-10T16:01:12.633537" elapsed="0.063322"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Sunway Bot" id="s1" pass="0" fail="1" skip="0">Sunway Bot</stat>
+<stat name="Rpa" id="s1-s1" pass="0" fail="1" skip="0">Sunway Bot.Rpa</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-10T16:01:12.610613" level="WARN">Error in file 'C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\rpa.robot' on line 32: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-03-10T16:01:12.656643" level="ERROR">Error in file 'C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\rpa.robot' on line 2: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\lib
+  C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\resources
+  c:\Users\Acer\.vscode\extensions\d-biehl.robotcode-1.0.2\bundled\libs
+  c:\Users\Acer\.vscode\extensions\d-biehl.robotcode-1.0.2\bundled\tool\robotcode
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\python312.zip
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\DLLs
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988
+  C:\Users\Acer\AppData\Roaming\Python\Python312\site-packages
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\win32
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\win32\lib
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\Pythonwin</msg>
+<msg time="2025-03-10T16:01:12.677816" level="ERROR">Error in file 'C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\rpa.robot' on line 6: Importing library 'CSV' failed: ModuleNotFoundError: No module named 'CSV'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\lib
+  C:\Users\Acer\Desktop\my-rsb-robot\sunway bot\resources
+  c:\Users\Acer\.vscode\extensions\d-biehl.robotcode-1.0.2\bundled\libs
+  c:\Users\Acer\.vscode\extensions\d-biehl.robotcode-1.0.2\bundled\tool\robotcode
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\python312.zip
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\DLLs
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988
+  C:\Users\Acer\AppData\Roaming\Python\Python312\site-packages
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\win32
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\win32\lib
+  C:\ProgramData\sema4ai\ht\a4f9fcb_c5e81ff_691db988\Lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
