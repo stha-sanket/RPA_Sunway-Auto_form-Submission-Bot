@@ -14,29 +14,10 @@ This Robocorp script automates filling out and submitting the contact form on th
 *   Install these libraries using the Vs-code extension
 *   ![Requirement Extension](https://github.com/stha-sanket/RPA-Auto-WebsiteScraper/blob/main/requirement-extension.png?raw=true)
 
-## Setup and Installation
-
-1.  **Install Robocorp Framework:**
-    ```bash
-    pip install robocorp-framework
-    ```
-
-2.  **Install Required Libraries:**
-    ```bash
-    pip install rpaframework rpaframework-browser
-    ```
-
 ## Usage
+**Run the Robot:**
 
-1.  **Run the Robot:**
-
-    Navigate to the directory containing the robot script (e.g., `sunway_contact.py`) and run:
-
-    ```bash
-    rcc task run
-    ```
-
-    This command will execute the `robot_spare_bin_python` task.
+    After downloading the extension you can see a Run Task above `@task` decorator
 
 ## Code Explanation
 
