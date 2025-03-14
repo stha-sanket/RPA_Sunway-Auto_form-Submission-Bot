@@ -17,7 +17,7 @@ This Robocorp script automates filling out and submitting the contact form on th
 ## Usage
 **Run the Robot:**
 
-    After downloading the extension you can see a Run Task above `@task` decorator
+    After downloading the extension you can see a Run Task above  `@task`  decorator
 
 ## Code Explanation
 
